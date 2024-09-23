@@ -29,6 +29,7 @@ case "$1" in
     ubuntu)
         # full documentation is only built on ubuntu
         pip install -U sphinx sphinx-bootstrap-theme breathe sphinxcontrib-programoutput
+        pip freeze
         ;;
 esac
 
